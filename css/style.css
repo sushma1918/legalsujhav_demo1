@@ -42,6 +42,29 @@
     margin: 0 auto;
     display: block;
   }
+  /* Responsive fix for social media links */
+  .social_media_links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .social_media_links ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    justify-content: center;
+  }
+  .social_media_links ul li {
+    width: auto !important;
+    margin: 0 4px;
+  }
   nav, .navbar, .main-menu, .header-area {
     min-width: 0;
     width: 100%;
@@ -94,6 +117,30 @@
   .header-area, .footer-area {
     text-align: center;
   }
+}
+
+/* Desktop/tablet fix for social media links */
+.social_media_links {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.social_media_links ul {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.social_media_links ul li {
+  width: auto !important;
+  margin: 0 5px;
+}
 }
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/theme-default.scss */
 body {

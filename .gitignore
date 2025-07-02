@@ -1,0 +1,73 @@
+# Node modules
+node_modules/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Python
+__pycache__/
+*.py[cod]
+
+# SASS/SCSS cache
+.sass-cache/
+*.css.map
+*.scssc
+
+# Environment files
+.env
+.env.*
+
+# Build output
+/dist/
+/build/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Windows
+*.lnk
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Others
+.idea/
+*.iml
+
+# Ignore minified files
+*.min.js
+*.min.css

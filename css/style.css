@@ -19,6 +19,82 @@
 /* small mobile :320px. */
 /* Large Mobile :480px. */
 /* 1. Theme default css */
+/* Responsive improvements for mobile and tablet */
+@media (max-width: 575.98px) {
+  html, body {
+    font-size: 15px;
+  }
+  .container, .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  img, .img {
+    max-width: 100%;
+    height: auto;
+  }
+  .logo, .header-logo, .site-logo, .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+    width: auto !important;
+    min-width: 80px;
+    max-height: 60px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+  nav, .navbar, .main-menu, .header-area {
+    min-width: 0;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .section_title h1, .section_title h2, .section_title h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .section_title p {
+    font-size: 1rem;
+  }
+  .mb-95, .mb-80, .mb-60 {
+    margin-bottom: 20px !important;
+  }
+  .boxed-btn4, .boxed-btn5 {
+    padding: 10px 20px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .row, [class*="col-"] {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .footer-area, .header-area {
+    text-align: center;
+  }
+  .main-menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main-menu ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .main-menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main-menu ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .header-area, .footer-area {
+    text-align: center;
+  }
+}
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/theme-default.scss */
 body {
   font-family: "Poppins", sans-serif;
